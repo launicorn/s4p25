@@ -17,9 +17,9 @@ body, html {
 
 .title {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
   display: block;
-  margin: 20px auto;
+  margin: 21px auto;
   image-rendering: auto;      
 image-rendering: smooth; 
   transition: transform 0.2s ease-out;
