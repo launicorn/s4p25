@@ -1,9 +1,9 @@
 body{
   margin:0;
   padding:0;
-  overflow: hidden;
-.background{
-background-image: url('images/indigenouspattern1.png');
+  overflow: hidden;}
+background{
+  background-image: url('images/indigenouspattern1.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
@@ -11,14 +11,15 @@ background-image: url('images/indigenouspattern1.png');
   height:100%;
   z-index:-1;
 }
-.title {
+  
+title {
   width:100%;
   max-width:900px;
   display: block;
   margin:0 auto;
   padding-top:21px;
 }
-.ekeko-wrapper {
+ekeko-wrapper {
   position:relative;
   width:600px;
   margin:21px auto;
