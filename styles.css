@@ -2,8 +2,9 @@ body{
   margin:0;
   padding:0;
   overflow: hidden;
-  background-color: hotpink;
 }
+
+
 title {
   width:100%;
   max-width:900px;
@@ -16,16 +17,16 @@ ekeko-wrapper {
   width:600px;
   margin:21px auto;
 }
-.ekeko{
+ekeko{
   width:100%;
   display:block;
 }
 
-.click-zone {
+click-zone {
   position: absolute;
   cursor: pointer;
 }
-.architecture{
+architecture{
 top:38%;
 left: 27%;
 width:10%;
@@ -33,28 +34,28 @@ height:10%;
 
 }
 
-.music{
+music{
 top:40%;
 left: 65%;
 width:20%;
 height:15%;
 }
 
-.food{
+food{
 top:55%;
 left: 58%;
 width:25%;
 height:15%;
 }
 
-.costume{
+costume{
 top:70%;
 left: 35%;
 width:25%;
 height:15%;
 }
 
-.celebration{
+celebration{
 top:85%;
 left: 50%;
 width:15%;
