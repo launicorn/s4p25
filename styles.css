@@ -1,7 +1,7 @@
 body, html {
-  margin:0
-  padding:0
-  overflow: hidden
+  margin:0;
+  padding:0;
+  overflow: hidden;
 }
 .background {
   background-image: url('images/indigenouspattern1.png');
@@ -16,12 +16,12 @@ body, html {
   width:100%;
   max-width:900px;
   display: block;
-  margin:0 auto
-  padding-top:21px
+  margin:0 auto;
+  padding-top:21px;
 }
 .ekeko-wrapper {
   position:relative;
-  width:600px
+  width:600px;
   margin:21px auto;
 }
 .ekeko{
@@ -30,12 +30,12 @@ body, html {
 }
 
 .click-zone {
-  position: absolute
+  position: absolute;
   cursor: pointer;
 }
 .architecture{
 top:38%;
-left: 27%
+left: 27%;
 width:10%;
 height:10%;
 
@@ -50,21 +50,21 @@ height:15%;
 
 .food{
 top:55%;
-left: 58%
+left: 58%;
 width:25%;
 height:15%;
 }
 
 .costume{
 top:70%;
-left: 35%
+left: 35%;
 width:25%;
 height:15%;
 }
 
 .celebration{
 top:85%;
-left: 50%
+left: 50%;
 width:15%;
 height:10%;
 }
