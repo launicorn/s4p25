@@ -20,6 +20,8 @@ body, html {
   max-width: 900px;
   display: block;
   margin: 20px auto;
+  image-rendering: auto;      
+image-rendering: smooth; 
   transition: transform 0.1s ease-out;
 }
 
