@@ -7,7 +7,7 @@ window.addEventListener('scroll', () => {
   const image = document.getElementById('titleImage');
 
   if (image) {
-    const scaleY = 1 + scrollY * 0.003;
+    const scaleY = 1 + scrollY * 0.0003;
     image.style.transform = `scaleY(${scaleY})`;
     image.style.transformOrigin = 'top center';
   }
