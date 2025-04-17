@@ -17,7 +17,7 @@ body, html {
 
 .title {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   display: block;
   margin: 20px auto;
   image-rendering: auto;      
@@ -27,7 +27,7 @@ image-rendering: smooth;
 
 .ekeko-wrapper {
   position: relative;        
-  width: 600px;
+  width: 700px;
   margin:0 auto;
 }
 
