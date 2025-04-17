@@ -1,19 +1,15 @@
-body, html {
+body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-.background {
   background-color: hotpink;
   background-image: url('images/pattern.png');
   background-size: cover;
   background-repeat: no-repeat;
-  position: fixed;
-  width: 100vw;
+  background-position: center;
   height: 100vh;
-  z-index: -1;
+  width: 100vw;
+  overflow: hidden;
 }
-
 .title {
   width: 90%;
   max-width: 800px;
