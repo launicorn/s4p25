@@ -22,7 +22,7 @@ body, html {
   margin: 20px auto;
   image-rendering: auto;      
 image-rendering: smooth; 
-  transition: transform 0.1s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 .ekeko-wrapper {
