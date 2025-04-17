@@ -4,90 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
    //<title>Indigenous Futurism in Bolivia</title>
-    <link rel="icon" type="image/png" href="images/indigenouspattern1.png" />
-    <style>
-      body {
-        background-image: url("images/indigenouspattern1.png");
-        background-size: cover ;
-        background-repeat: repeat;
-        background-attachment: scroll;
-        background-position: center;
-        color: Orange;
-        font-family: sans-serif;
-        padding: 0px;
-      }
-
-      a {
-        color: #ffd700;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      footer {
-        margin-top: 50px;
-        text-align: center;
-      }
-    </style>
-  </head>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+  
   <body>
-    <section class="section--first">
-        <img class="images/indigenousposter1.png"/>
-      <canvas> id="drawingCanvas"></canvas>
-      
-    </section>section
-    <h1 id="top">Indigenous Futurism</h1>
-
-    <h2>Sections</h2>
-    <ol>
-      <li>Architecture</li>
-      <li>Costume</li>
-      <li>Food</li>
-      <li>Music</li>
-       <li>Celebration</li>
-    </ol>
-
-    <h2>Photo and Articles</h2>
-    <a href="exercises/song.html">Variations on a song</a>
-
-    <br /><br /><br />
-
-    <div>
-      <h4>About this site</h4>
-      <p>
-        The new Aymara bourgeoisie are, in a way, practicing
-        indigenous futurism through architecture,music,gastronomy,costume and celebration. They are
-        acknowledging the melting pot of influences from
-        which they came — imperialist and otherwise — while
-        designing and building for the Bolivia they want. Bolivia
-        is in a constant state of reconciliation between its
-        colonial past and the desire for a global future.
-        <br /><br />
-        I also set up a few links... click on "Top 10"
-        and you'll go to the start of a top 10 list... then there's a link back
-        to this page. Can copy and paste any of these tags or delete them and
-        replace with your own content.
-      </p>
-
-      <div>
-        <a
-          href="https://tiri.notion.site/Software-for-People-1203700074c680949e0cf653204bac62?pvs=4"
-          target="_blank"
-          >Visit my homepage!</a
-        >
+    <div class="background"</div
+      <img src="images/indigenousfuturism.png" class="title" alt "Indigenous Futurism"/>
+      <div class= "ekeko-wrapper">
+        <img src="images/ekeko-menu.png" class="ekeko" alt=Ekeko Menu"/>
+        //for clicking zonee of the ekeko menu
+        <div class="click-zone architecture" onclick="goToSection('architecture')"></div>
+        <div class="click-zone music" onclick=goToSection('music')"></div>
+         <div class="click-zone costume" onclick=goToSection('costume')"></div>
+         <div class="click-zone celebration" onclick=goToSection('celebration')"></div>
+         <div class="click-zone food" onclick=goToSection('food')"></div
       </div>
-    </div>
-
-    <p>Technology is <b>truly</b> amazing!</p>
-
-    <div>
-
-    </div>
-
-    <br /><br /><br /><br /><br /><br />
-
+      <script src="script.js"></script>
     <footer>
       <div>
         <a href="#top">Back to top</a>
