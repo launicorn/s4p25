@@ -3,7 +3,6 @@ body, html {
   padding:0
   overflow: hidden
 }
-//whiphala pattern
 .background {
   background-image: url('images/indigenouspattern1.png')
   background-size: cover;
@@ -29,7 +28,7 @@ body, html {
   width:100%;
   display:block;
 }
-// need invisible buttons need setup on top of ekekos items
+
 .click-zone {
   position: absolute
   cursor: pointer;
