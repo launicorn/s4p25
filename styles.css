@@ -4,7 +4,7 @@ body, html {
   overflow: hidden
 }
 .background {
-  background-image: url('images/indigenouspattern1.png')
+  background-image: url('images/indigenouspattern1.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
