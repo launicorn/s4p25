@@ -39,8 +39,10 @@ image-rendering: smooth;
     padding:21px;
     font-family:'Bodoni 72',serif;
   }
-  h1{font-family: 'Bauhaus Display', sans-serif;
-    }
+  h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
   body#architecture {
     background-color:red;
   }
@@ -59,7 +61,4 @@ image-rendering: smooth;
   body#fashion {
     background-color:violet;
   }
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-}
+
