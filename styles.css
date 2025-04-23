@@ -33,3 +33,29 @@ image-rendering: smooth;
 .ekeko {
   width: 100%;
   display: block;
+
+  body{
+    margin:0;
+    padding:21px;
+    font-family:'Bodoni 72',serif;
+  }
+  h1{font-family: 'Bauhaus Display', sans-serif;
+    }
+  body#architecture {
+    background-color:red;
+  }
+  body#celebration {
+    background-color:orange;
+  }
+  body#music {
+    background-color:yellow;
+  }
+  body#food {
+    background-color:green;
+  }
+  body#art {
+    background-color:blue;
+  }
+  body#fashion {
+    background-color:violet;
+  }
