@@ -13,6 +13,24 @@
 
 <body id="art">
   <h1>Art</h1>
+/*Mini Ekeko “Back to Home” Button — upper left*/
+.back-ekeko {
+  position: fixed;
+  top: 10px;      /* 10px from top edge */
+  left: 10px;     /* 10px from left edge */
+  z-index: 1000;  /* above everything else */
+}
+
+.back-ekeko img {
+  width: 30px;    /* small icon size */
+  height: auto;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.back-ekeko:hover img {
+  transform: scale(1.1); /* slight pop on hover */
+}
 
   <div class="theme-grid">
     <!-- 1. Top-left: text -->
