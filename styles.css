@@ -91,15 +91,13 @@ body#fashion {
   display: block;
 }
 
-/* Diagonal/Checkered Layout */
 .content-section:nth-child(odd) {
-  flex-direction: row-reverse; /* Reverse for odd sections */
+  flex-direction: row-reverse; 
 }
 
 .text-block:nth-child(odd) {
-  /* Optional: Add a background color or border to distinguish text blocks */
+background-color:white
 }
 
 .image-block:nth-child(even) {
-  /* Optional: Add a background color or border to distinguish image blocks */
 }
