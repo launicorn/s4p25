@@ -97,12 +97,12 @@ body#fashion {
   flex-direction: row-reverse;
 }
 
-.content-section:nth-child(odd) .text-block:nth-child(1) {
-  background-color: white;
+.content-section:nth-child(odd) .text-block {
+  background-color: white; /* White text block in odd sections */
 }
 
-.content-section:nth-child(even) .text-block:nth-child(2) {
-  background-color: white;
+.content-section:nth-child(even) .text-block {
+  background-color: transparent; /* Or your page background color for even sections */
 }
 
 /* Optional: Style the text further if needed */
