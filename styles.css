@@ -71,6 +71,7 @@ body#art {
 body#fashion {
   background-color: #bf00ff;
 }
+/* Content layout styles */
 .content-section {
   display: flex;
   margin-bottom: 40px; /* Increased spacing for visual separation */
@@ -91,13 +92,21 @@ body#fashion {
   display: block;
 }
 
+/* Diagonal/Checkered Layout with White Text Blocks */
 .content-section:nth-child(odd) {
-  flex-direction: row-reverse; 
+  flex-direction: row-reverse;
 }
 
-.text-block:nth-child(odd) {
-background-color:white
+.content-section:nth-child(odd) .text-block:nth-child(1) {
+  background-color: white;
 }
 
-.image-block:nth-child(even) {
+.content-section:nth-child(even) .text-block:nth-child(2) {
+  background-color: white;
+}
+
+/* Optional: Style the text further if needed */
+.text-block p {
+  font-size: 1.1em;
+  line-height: 1.6;
 }
