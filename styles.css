@@ -496,7 +496,7 @@ body[id] > h1 {
 }
 
 .back-ekeko img {
-  width: 60px;    
+  width: 90px;    
   height: auto;
   display: block;
   transition: transform 0.2s ease;
