@@ -487,22 +487,22 @@ body#fashion .theme-grid .box:nth-child(9) { grid-column: 3; grid-row: 3; } /* T
 body[id] > h1 {
   margin: 21px 93px;  
 }
-/* Mini Ekeko “Back to Home” Button — upper left*/
+/* Mini Ekeko “Back to Home” Button in theupper leftcorner*/
 .back-ekeko {
   position: fixed;
-  top: 10px;      /* 10px from top edge */
-  left: 10px;     /* 10px from left edge */
-  z-index: 1000;  /* above everything else */
+  top: 10px;      
+  left: 10px;     
+  z-index: 1000;  
 }
 
 .back-ekeko img {
-  width: 30px;    /* small icon size */
+  width: 60px;    
   height: auto;
   display: block;
   transition: transform 0.2s ease;
 }
 
 .back-ekeko:hover img {
-  transform: scale(1.1); /* slight pop on hover */
+  transform: scale(1.1); 
 }
 
