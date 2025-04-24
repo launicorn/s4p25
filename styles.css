@@ -14,8 +14,6 @@ body, html {
   left: 0;
   width: 100vw; 
   height: 100vh;
-  min-width: 100vh;
-  min-height: 100vh;
   z-index: -1;
 }
 
@@ -42,8 +40,6 @@ body, html {
 
 body {
   margin: 0;
-  padding: 0;
-  overflow-y: scroll;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -77,17 +73,12 @@ body#fashion {
 }
 .content-section {
   display: flex;
-  flex-direction: row; /* Default: text on left, image on right */
-  margin-bottom: 20px; /* Spacing between sections */
-}
-
-.content-section:nth-child(odd) {
-  flex-direction: row-reverse; /* Reverse order for odd sections */
+  margin-bottom: 40px; /* Increased spacing for visual separation */
 }
 
 .text-block {
-  flex: 1; /* Take up remaining space */
-  padding-right: 20px; /* Space between text and image */
+  flex: 1;
+  padding: 20px;
 }
 
 .image-block {
@@ -95,13 +86,20 @@ body#fashion {
 }
 
 .image-block img {
-  width: 100%; /* Make image fill its container */
+  width: 100%;
   height: auto;
-  display: block; /* Remove any default bottom margin */
+  display: block;
 }
 
-/* Optional: Style the text */
-.text-block p {
-  font-size: 1.1em;
-  line-height: 1.6;
+/* Diagonal/Checkered Layout */
+.content-section:nth-child(odd) {
+  flex-direction: row-reverse; /* Reverse for odd sections */
+}
+
+.text-block:nth-child(odd) {
+  /* Optional: Add a background color or border to distinguish text blocks */
+}
+
+.image-block:nth-child(even) {
+  /* Optional: Add a background color or border to distinguish image blocks */
 }
