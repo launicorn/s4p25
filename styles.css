@@ -2,22 +2,66 @@ body, html {
   margin: 0;
   padding: 0;
   overflow-y: scroll;
-  background-color: transparent; /* Ensure transparency */
+  background-color: transparent;
+}
+
+.background {
+  background-image: url('images/pattern.png');
+  background-size: cover;
+  background-repeat: repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-image: url('images/pattern.png');
-  background-size: cover;
-  background-repeat: repeat;
-  position: fixed; /* Set background on body to fixed */
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+}
+.title {
+  width: 90%;
+  max-width: 1200px;
+  display: block;
+  margin: 21px auto;
+  image-rendering: auto;
+  image-rendering: smooth;
+  transition: transform 0.2s ease-out;
 }
 
-.background {
-  display: none; /* Hide the separate background div */
+.ekeko-wrapper {
+  position: relative;
+  width: 600px;
+  margin:20px auto;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+body#architecture {
+  background-color: #fc0081;
+}
+
+body#celebration {
+  background-color: #ff6600;
+}
+
+body#music {
+  background-color: #ffff00;
+}
+
+body#food {
+  background-color: #28ff00;
+}
+
+body#art {
+  background-color: #0080ff;
+}
+
+body#fashion {
+  background-color: #bf00ff;
 }
