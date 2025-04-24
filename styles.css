@@ -37,33 +37,34 @@ body, html {
 
 body {
   margin: 0;
-  padding: 21px;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  font-family: 'Bauhaus Display', sans-serif; 
+  font-family: 'Bauhaus Display', sans-serif;
+  font-weight: normal;
+}
 
 body#architecture {
-  background-color: red;
+  background-color: 'red';
 }
 
 body#celebration {
-  background-color: orange;
+  background-color: 'orange';
 }
 
 body#music {
-  background-color: yellow;
+  background-color: 'yellow';
 }
 
 body#food {
-  background-color: green;
+  background-color: 'green';
 }
 
 body#art {
-  background-color: blue;
+  background-color: 'blue';
 }
 
 body#fashion {
-  background-color: violet;
+  background-color: 'violet';
 }
