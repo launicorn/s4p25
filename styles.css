@@ -19,29 +19,31 @@ body, html {
   max-width: 1200px;
   display: block;
   margin: 21px auto;
-  image-rendering: auto;      
-image-rendering: smooth; 
+  image-rendering: auto;
+  image-rendering: smooth;
   transition: transform 0.2s ease-out;
 }
 
 .ekeko-wrapper {
-  position: relative;        
+  position: relative;
   width: 600px;
   margin:20px auto;
 }
 
 .ekeko {
   width: 100%;
-  display: block;}
-
-  body{
-    margin:0;
-    padding:21px;
-    font-family:'Bodoni 72',serif;
-  h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  display: block;
 }
+
+body {
+  margin: 0;
+  padding: 21px;
+  font-family: 'Roboto', sans-serif; 
+}
+
+h1 {
+  font-family: 'Bauhaus Display', sans-serif; 
+
 body#architecture {
   background-color: red;
 }
@@ -65,5 +67,3 @@ body#art {
 body#fashion {
   background-color: violet;
 }
-  }
-
