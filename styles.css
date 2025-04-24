@@ -75,3 +75,33 @@ body#art {
 body#fashion {
   background-color: #bf00ff;
 }
+.content-section {
+  display: flex;
+  flex-direction: row; /* Default: text on left, image on right */
+  margin-bottom: 20px; /* Spacing between sections */
+}
+
+.content-section:nth-child(odd) {
+  flex-direction: row-reverse; /* Reverse order for odd sections */
+}
+
+.text-block {
+  flex: 1; /* Take up remaining space */
+  padding-right: 20px; /* Space between text and image */
+}
+
+.image-block {
+  flex: 1;
+}
+
+.image-block img {
+  width: 100%; /* Make image fill its container */
+  height: auto;
+  display: block; /* Remove any default bottom margin */
+}
+
+/* Optional: Style the text */
+.text-block p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
