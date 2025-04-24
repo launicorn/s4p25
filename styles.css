@@ -184,5 +184,5 @@ body#architecture .theme-grid .box:nth-child(9) { grid-column: 3; grid-row: 3; }
 
 /* need to add space around all of theme-page titles becasue too close*/
 body[id] > h1 {
-  margin: 21px 39px;  
+  margin: 21px 63px;  
 }
