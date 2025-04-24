@@ -14,12 +14,14 @@ window.addEventListener('scroll', () => {
    //Footer Phrase Show/Hide
   const phrase = document.getElementById('bottomPhrase');
   if (phrase) {
-    const scrolledTo = scrollY + window.innerHeight;
-    const docHeight  = document.documentElement.scrollHeight;
-    if (scrolledTo >= docHeight - 5) {
+    const scrolledTo  = window.scrollY + window.innerHeight;
+    const totalHeight = document.body.scrollHeight;
+    // only show when we've scrolled all the way to (or past) the true bottom
+    if (scrolledTo >= totalHeight) {
       phrase.style.display = 'block';
     } else {
       phrase.style.display = 'none';
     }
   }
+
 });
