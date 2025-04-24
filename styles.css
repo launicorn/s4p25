@@ -2,21 +2,22 @@ body, html {
   margin: 0;
   padding: 0;
   overflow-y: scroll;
-  background-color: transparent;
+  background-color: transparent; /* Ensure transparency */
 }
 
 body {
-  display: block;
-}
-
-.background {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
   background-image: url('images/pattern.png');
   background-size: cover;
   background-repeat: repeat;
-  position: fixed;
-  top: -0.5px; /* Nudge it up slightly */
-  left: -0.5px; /* Nudge it left slightly */
-  width: calc(100vw + 1px); /* Make it a tiny bit wider */
-  height: calc(100vh + 1px); /* Make it a tiny bit taller */
-  z-index: -1;
+  position: fixed; /* Set background on body to fixed */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background {
+  display: none; /* Hide the separate background div */
 }
