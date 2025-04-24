@@ -4,14 +4,27 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Animation</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      min-height: 100vh; 
+    }
+
+    video {
+      display: block; 
+      max-width: 100%; 
+      max-height: 100vh; 
+    }
+  </style>
 </head>
 <body>
-  <h1>Watch the Animation</h1>
-  <video controls width="640" height="360">
+  <video controls autoplay loop>
     <source src="images/animation.mp4" type="video/mp4">
-    Noo Your browser does not support the video tag sorry.
+    Saad your browser does not support the video tag I am sorry.
   </video>
-  <p><a href="index.html">Back to Home</a></p>
 </body>
 </html>
