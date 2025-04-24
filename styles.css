@@ -72,6 +72,10 @@ body#fashion {
   background-color: #bf00ff;
 }
 
+body#hat {
+  background-color: #bf00ff;
+}
+
 .display-text {
   font-family: "p22-glaser-babyteeth-solid", serif;
   font-size: 30px;
@@ -154,7 +158,6 @@ body#architecture .theme-grid .box.text {
   text-align:left;
 }
 
-/* Image boxes: transparent */
 body#architecture .theme-grid .box.image {
   background: none;
   padding: 0;
@@ -168,7 +171,6 @@ body#architecture .theme-grid .box.image img {
   display: block;
 }
 
-/* Explicit placement to create diagonal/checker pattern */
 body#architecture .theme-grid .box:nth-child(1) { grid-column: 1; grid-row: 1; }
 body#architecture .theme-grid .box:nth-child(2) { grid-column: 2; grid-row: 1; }
 body#architecture .theme-grid .box:nth-child(3) { grid-column: 3; grid-row: 1; }
