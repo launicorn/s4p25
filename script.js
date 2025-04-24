@@ -1,3 +1,16 @@
+// Show alert on first visit
+window.addEventListener('load', () => {
+  if (!localStorage.getItem('hasVisited')) {
+    alert(
+      "Welcome to Indigenous Futurism!\n\n" +
+      "• This is a webzine about Bolivian culture\n" +
+      "• Click on the Ekeko to flip through the pages and more!\n\n" +
+      "Enjoy your journey!"
+    );
+    localStorage.setItem('hasVisited', 'true');
+  }
+});
+
 function goToSection(section){
   window.location.href = `${section}.html`;
 }
