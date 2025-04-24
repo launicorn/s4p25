@@ -1,9 +1,9 @@
-// Show alert on first visit
+// explain theuser on their first tiem on site
 window.addEventListener('load', () => {
   if (!localStorage.getItem('hasVisited')) {
     alert(
       "Welcome to Indigenous Futurism!\n\n" +
-      "• This is a webzine about Bolivian culture\n" +
+      "• This is a webzine about how indigenous futurism is practiced in Bolivian culture\n" +
       "• Click on the Ekeko to flip through the pages and more!\n\n" +
       "Enjoy your journey!"
     );
